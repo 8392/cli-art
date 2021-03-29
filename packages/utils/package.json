@@ -1,6 +1,6 @@
 {
   "name": "artist-caibo-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "工具",
   "author": "artist <306048913@qq.com>",
   "homepage": "https://github.com/8392/cli-art#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/8392/cli-art/issues"
   },
   "dependencies": {
-    "artist-caibo-core": "^1.0.0"
+    "artist-caibo-core": "^0.0.1"
   }
 }
