@@ -17,7 +17,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/8392/cli-art/issues"
   },
-  "gitHead": "e1df2d0e25e9a03bce840e17856bcf9399e50b9f"
+  "gitHead": "1403e537f94d4f95dddc8a485a05dbf3687d2bc1",
 }
