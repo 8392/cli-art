@@ -1,0 +1,70 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\cb\Desktop\artist-cli
+3 verbose session 37a9ac6178ca7f09
+4 verbose user-agent lerna/4.0.0/node@v12.18.2+x64 (win32)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+6 verbose rootPath C:\Users\cb\Desktop\artist-cli
+7 info current version 0.0.3
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v0.0.3-1-g1e1f42f" => {"lastTagName":"v0.0.3","lastVersion":"v0.0.3","refCount":"1","sha":"1e1f42f","isDirty":false}
+18 info Looking for changed packages since v0.0.3
+19 silly checking diff packages/core
+20 silly found diff in packages/core/package.json
+21 verbose filtered diff [ 'packages/core/package.json' ]
+22 silly checking diff packages/utils
+23 silly found diff in packages/utils/package.json
+24 verbose filtered diff [ 'packages/utils/package.json' ]
+25 verbose updated artist-caibo-core
+26 verbose updated artist-caibo-utils
+27 verbose git-describe undefined => "v0.0.3-1-g1e1f42f"
+28 silly git-describe parsed => {"lastTagName":"v0.0.3","lastVersion":"v0.0.3","refCount":"1","sha":"1e1f42f","isDirty":false}
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "artist-cli", continuing
+31 silly lifecycle No script for "preversion" in "artist-caibo-core", continuing
+32 silly lifecycle No script for "preversion" in "artist-caibo-utils", continuing
+33 silly lifecycle No script for "version" in "artist-caibo-utils", continuing
+34 silly lifecycle No script for "version" in "artist-caibo-core", continuing
+35 silly lifecycle No script for "version" in "artist-cli", continuing
+36 silly gitAdd [
+36 silly gitAdd   'packages/utils/package.json',
+36 silly gitAdd   'packages/core/package.json',
+36 silly gitAdd   'packages/core/package-lock.json',
+36 silly gitAdd   'lerna.json'
+36 silly gitAdd ]
+37 silly gitCommit v0.0.4-alpha.0
+38 verbose git [ 'commit', '-m', 'v0.0.4-alpha.0' ]
+39 silly gitTag v0.0.4-alpha.0
+40 verbose git [ 'tag', 'v0.0.4-alpha.0', '-m', 'v0.0.4-alpha.0' ]
+41 silly lifecycle No script for "postversion" in "artist-caibo-core", continuing
+42 silly lifecycle No script for "postversion" in "artist-caibo-utils", continuing
+43 silly lifecycle No script for "postversion" in "artist-cli", continuing
+44 info git Pushing tags...
+45 silly gitPush origin master
+46 info publish Publishing packages to npm...
+47 info Verifying npm credentials
+48 verbose Retrieving npm user profile
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 9168ms
+50 silly npm profile get received {"name":"caiboartist","created":"2021-03-30T01:18:34.181Z","updated":"2021-03-30T01:18:34.181Z","fullname":"caiboartist"}
+51 silly get npm username received {"username":"caiboartist","name":"caiboartist","created":"2021-03-30T01:18:34.181Z","updated":"2021-03-30T01:18:34.181Z","fullname":"caiboartist"}
+52 silly verifyNpmPackageAccess
+53 http fetch GET 200 https://registry.npmjs.org/-/org/caiboartist/package?format=cli 577ms
+54 info Checking two-factor auth mode
+55 verbose Retrieving npm user profile
+56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 355ms
+57 silly npm profile get received {"name":"caiboartist","created":"2021-03-30T01:18:34.181Z","updated":"2021-03-30T01:18:34.181Z","fullname":"caiboartist"}
+58 silly 2FA undefined
+59 error TypeError: Cannot read property 'pending' of undefined
