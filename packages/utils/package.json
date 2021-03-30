@@ -6,6 +6,9 @@
   "homepage": "https://github.com/8392/cli-art#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "artist-caibo-utils": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
