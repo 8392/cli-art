@@ -30,6 +30,7 @@
     "url": "https://github.com/8392/cli-art/issues"
   },
   "dependencies": {
-    "artist-caibo-utils": "^0.0.1"
+    "artist-caibo-utils": "^0.0.1",
+    "lodash": "^4.17.21"
   }
 }
