@@ -1,20 +1,23 @@
 {
   "name": "artist-caibo-core",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "初始文件",
   "keywords": [
     "a"
   ],
+  "bin": {
+    "artist-caibo-core": "bin/index.js"
+  },
   "author": "artist <306048913@qq.com>",
   "homepage": "http://index",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "bin/index.js",
   "directories": {
-    "lib": "lib",
+    "bin": "bin",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "bin"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
