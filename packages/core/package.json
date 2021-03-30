@@ -1,6 +1,6 @@
 {
   "name": "artist-caibo-core",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "初始文件",
   "keywords": [
     "a"
@@ -20,7 +20,7 @@
     "bin"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,8 @@
     "url": "https://github.com/8392/cli-art/issues"
   },
   "dependencies": {
-    "artist-caibo-utils": "^0.0.1"
-  }
+    "artist-caibo-utils": "^0.0.3",
+    "lodash": "^4.17.21"
+  },
+  "gitHead": "40c387b79cfaa7bbeb5ac1988f9d920796a5f44b"
 }

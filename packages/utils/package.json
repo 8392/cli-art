@@ -1,11 +1,14 @@
 {
   "name": "artist-caibo-utils",
-  "version": "0.0.1",
+  "version": "0.1.4",
   "description": "工具",
   "author": "artist <306048913@qq.com>",
   "homepage": "https://github.com/8392/cli-art#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "artist-caibo-utils": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,7 +17,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -26,7 +29,5 @@
   "bugs": {
     "url": "https://github.com/8392/cli-art/issues"
   },
-  "dependencies": {
-    "artist-caibo-core": "^0.0.1"
-  }
+  "gitHead": "40c387b79cfaa7bbeb5ac1988f9d920796a5f44b"
 }

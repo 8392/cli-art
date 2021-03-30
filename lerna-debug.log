@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\cb\Desktop\artist-cli
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 723 while parsing near "...85a05dbf3687d2bc1\",\n}\n" in packages\utils\package.json
+3 error
+3 error [0m [90m 31 |[39m   }[33m,[39m[0m
+3 error [0m [90m 32 |[39m   [32m"gitHead"[39m[33m:[39m [32m"1403e537f94d4f95dddc8a485a05dbf3687d2bc1"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 33 |[39m }[0m
+3 error [0m [90m    |[39m [31m[1m^[22m[39m[0m
+3 error [0m [90m 34 |[39m[0m
+3 error
+3 error     at parseJson (C:\Users\cb\Desktop\artist-cli\node_modules\_parse-json@5.2.0@parse-json\index.js:29:21)
+3 error     at parse (C:\Users\cb\Desktop\artist-cli\node_modules\_load-json-file@6.2.0@load-json-file\index.js:15:9)
+3 error     at module.exports (C:\Users\cb\Desktop\artist-cli\node_modules\_load-json-file@6.2.0@load-json-file\index.js:18:47)
