@@ -1,6 +1,6 @@
 {
   "name": "artist-caibo-utils",
-  "version": "0.0.6",
+  "version": "0.0.2",
   "description": "工具",
   "author": "artist <306048913@qq.com>",
   "homepage": "https://github.com/8392/cli-art#readme",
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/8392/cli-art/issues"
   },
-  "gitHead": "dfec72945f6389eb555e1dc7a36e12a1be466e3c"
+  "gitHead": "e1df2d0e25e9a03bce840e17856bcf9399e50b9f"
 }

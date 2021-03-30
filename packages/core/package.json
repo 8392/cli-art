@@ -1,6 +1,6 @@
 {
   "name": "artist-caibo-core",
-  "version": "0.0.6",
+  "version": "0.0.2",
   "description": "初始文件",
   "keywords": [
     "a"
@@ -33,5 +33,5 @@
     "artist-caibo-utils": "^0.0.3",
     "lodash": "^4.17.21"
   },
-  "gitHead": "dfec72945f6389eb555e1dc7a36e12a1be466e3c"
+  "gitHead": "e1df2d0e25e9a03bce840e17856bcf9399e50b9f"
 }
