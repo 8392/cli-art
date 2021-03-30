@@ -7,5 +7,6 @@ function utils () {
   // TODO
   let sum = 0
   // let age = 2
-  let age = 33
+  // let age = 33
+  const city = "成都"
 }
