@@ -9,4 +9,5 @@ function utils () {
   // let age = 2
   // let age = 33
   const city = "成都"
+  const city1 = "重庆"
 }
