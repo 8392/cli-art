@@ -2,6 +2,7 @@
 
 module.exports = utils;
 
-function utils() {
-    // TODO
+function utils () {
+  console.log("测试utils")
+  // TODO
 }
