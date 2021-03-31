@@ -7,5 +7,5 @@ const utils = require('artist-caibo-utils')
 // TODO
 // }
 
-console.log("core")
+console.log("core1")
 console.log('utils', utils())

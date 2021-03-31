@@ -1,6 +1,9 @@
-42 error Error: Command failed with exit code 128: git tag v0.1.0 -m v0.1.0
-42 error fatal: tag 'v0.1.0' already exists
-42 error     at makeError (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\lib\error.js:59:11)
-42 error     at handlePromise (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\index.js:114:26)
-42 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-42 error     at async Promise.all (index 0)
+40 error Error: Command failed with exit code 1: git commit -m v0.1.0
+40 error On branch master
+40 error Your branch is up to date with 'origin/master'.
+40 error
+40 error nothing to commit, working tree clean
+40 error     at makeError (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\lib\error.js:59:11)
+40 error     at handlePromise (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\index.js:114:26)
+40 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+40 error     at async Promise.all (index 0)

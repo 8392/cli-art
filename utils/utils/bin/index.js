@@ -6,6 +6,6 @@ function utils () {
   return {
     name: '张三',
     age: 22,
-    city: '成都'
+    city: '成都1'
   }
 }
