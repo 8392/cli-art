@@ -1,6 +1,15 @@
-42 error Error: Command failed with exit code 128: git tag v0.0.4 -m v0.0.4
-42 error fatal: tag 'v0.0.4' already exists
-42 error     at makeError (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\lib\error.js:59:11)
-42 error     at handlePromise (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_execa@5.0.0@execa\index.js:114:26)
-42 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-42 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ '^0.0.4,' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'artist-caibo-utils:'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\Lenovo\Desktop\vue\cli-art
+3 error Error: Invalid tag name "artist-caibo-utils:": Tags may not have any characters that encodeURIComponent encodes.
+3 error     at invalidTagName (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_npm-package-arg@8.1.2@npm-package-arg\npa.js:94:15)
+3 error     at fromRegistry (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_npm-package-arg@8.1.2@npm-package-arg\npa.js:299:13)
+3 error     at resolve (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_npm-package-arg@8.1.2@npm-package-arg\npa.js:84:12)
+3 error     at npa (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_npm-package-arg@8.1.2@npm-package-arg\npa.js:55:10)
+3 error     at AddCommand.initialize (C:\Users\Lenovo\Desktop\vue\cli-art\node_modules\_@lerna_add@4.0.0@@lerna\add\index.js:39:17)

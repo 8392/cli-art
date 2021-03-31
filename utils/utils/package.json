@@ -1,23 +1,20 @@
 {
-  "name": "artist-caibo-core",
+  "name": "artist-caibo-utils",
   "version": "0.0.4",
-  "description": "初始文件",
-  "keywords": [
-    "a"
-  ],
-  "bin": {
-    "artist-caibo-core": "bin/index.js"
-  },
+  "description": "工具",
   "author": "artist <306048913@qq.com>",
-  "homepage": "http://index",
+  "homepage": "https://github.com/8392/cli-art#readme",
   "license": "ISC",
   "main": "bin/index.js",
+  "bin": {
+    "artist-caibo-utils": "bin/index.js"
+  },
   "directories": {
-    "bin": "bin",
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "bin"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
@@ -32,9 +29,8 @@
   "bugs": {
     "url": "https://github.com/8392/cli-art/issues"
   },
+  "gitHead": "5f735d82b01b1294f9a350219bb79a7b630be96f",
   "dependencies": {
-    "artist-caibo-utils": "^0.0.4",
     "lodash": "^4.17.21"
-  },
-  "gitHead": "40c387b79cfaa7bbeb5ac1988f9d920796a5f44b"
+  }
 }
