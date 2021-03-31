@@ -1,0 +1,40 @@
+{
+  "name": "artist-caibo-core",
+  "version": "0.0.4",
+  "description": "初始文件",
+  "keywords": [
+    "a"
+  ],
+  "bin": {
+    "artist-caibo-core": "bin/index.js"
+  },
+  "author": "artist <306048913@qq.com>",
+  "homepage": "http://index",
+  "license": "ISC",
+  "main": "bin/index.js",
+  "directories": {
+    "bin": "bin",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8392/cli-art.git"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/8392/cli-art/issues"
+  },
+  "dependencies": {
+    "artist-caibo-utils": "file:../../utils/utils"
+  },
+  "gitHead": "40c387b79cfaa7bbeb5ac1988f9d920796a5f44b"
+}
